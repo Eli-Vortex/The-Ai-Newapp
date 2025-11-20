@@ -1,0 +1,17 @@
+# Android构建/依赖目录（重点过滤）
+**/build/
+**/.cxx/
+**/llama-src/
+
+# IDE配置文件
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# 嵌套Git仓库标记
+**/.git/
+
+# 系统临时文件
+**/Thumbs.db
+**/.DS_Store
