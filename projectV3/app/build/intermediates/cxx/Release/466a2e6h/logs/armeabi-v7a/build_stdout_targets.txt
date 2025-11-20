@@ -1,0 +1,13 @@
+ninja: Entering directory `E:\QQ\projectV3\projectV3\projectV3\app\.cxx\Release\466a2e6h\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/llama-android.dir/llama-android.cpp.o
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:151:31: warning: 'llama_new_context_with_model' is deprecated: use llama_init_from_model instead [-Wdeprecated-declarations]
+    llama_context * context = llama_new_context_with_model(model, ctx_params);
+                              ^
+E:/QQ/projectV3/projectV3/projectV3/app/.cxx/Release/466a2e6h/armeabi-v7a/_deps/llama-src/src/../include/llama.h:457:5: note: 'llama_new_context_with_model' has been explicitly marked deprecated here
+    DEPRECATED(LLAMA_API struct llama_context * llama_new_context_with_model(
+    ^
+E:/QQ/projectV3/projectV3/projectV3/app/.cxx/Release/466a2e6h/armeabi-v7a/_deps/llama-src/src/../include/llama.h:28:56: note: expanded from macro 'DEPRECATED'
+#    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+                                                       ^
+1 warning generated.
+[2/2] Linking CXX shared library E:\QQ\projectV3\projectV3\projectV3\app\build\intermediates\cxx\Release\466a2e6h\obj\armeabi-v7a\libllama-android.so

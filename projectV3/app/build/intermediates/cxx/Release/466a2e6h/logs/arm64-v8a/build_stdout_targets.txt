@@ -1,0 +1,51 @@
+ninja: Entering directory `E:\QQ\projectV3\projectV3\projectV3\app\.cxx\Release\466a2e6h\arm64-v8a'
+[1/2] Building CXX object CMakeFiles/llama-android.dir/llama-android.cpp.o
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:151:31: warning: 'llama_new_context_with_model' is deprecated: use llama_init_from_model instead [-Wdeprecated-declarations]
+    llama_context * context = llama_new_context_with_model(model, ctx_params);
+                              ^
+E:/QQ/projectV3/projectV3/projectV3/app/.cxx/Release/466a2e6h/arm64-v8a/_deps/llama-src/src/../include/llama.h:457:5: note: 'llama_new_context_with_model' has been explicitly marked deprecated here
+    DEPRECATED(LLAMA_API struct llama_context * llama_new_context_with_model(
+    ^
+E:/QQ/projectV3/projectV3/projectV3/app/.cxx/Release/466a2e6h/arm64-v8a/_deps/llama-src/src/../include/llama.h:28:56: note: expanded from macro 'DEPRECATED'
+#    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+                                                       ^
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:438:65: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    LOGi("n_len = %d, n_ctx = %d, n_kv_req = %d", n_len, n_ctx, n_kv_req);
+                                             ~~                 ^~~~~~~~
+                                             %lu
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:59:62: note: expanded from macro 'LOGi'
+#define LOGi(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:442:14: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+             n_kv_req, n_ctx, tokens_list.size(), n_len);
+             ^~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:60:63: note: expanded from macro 'LOGe'
+#define LOGe(...) __android_log_print(ANDROID_LOG_ERROR, TAG, __VA_ARGS__)
+                                                              ^~~~~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:445:41: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+             tokens_list.size(), n_len, n_kv_req, n_ctx);
+                                        ^~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:59:62: note: expanded from macro 'LOGi'
+#define LOGi(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:857:65: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    LOGi("n_len = %d, n_ctx = %d, n_kv_req = %d", n_len, n_ctx, n_kv_req);
+                                             ~~                 ^~~~~~~~
+                                             %lu
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:59:62: note: expanded from macro 'LOGi'
+#define LOGi(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:861:14: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+             n_kv_req, n_ctx, tokens_list.size(), n_len);
+             ^~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:60:63: note: expanded from macro 'LOGe'
+#define LOGe(...) __android_log_print(ANDROID_LOG_ERROR, TAG, __VA_ARGS__)
+                                                              ^~~~~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:866:41: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+             tokens_list.size(), n_len, n_kv_req, n_ctx);
+                                        ^~~~~~~~
+E:/QQ/projectV3/projectV3/projectV3/app/src/main/cpp/llama-android.cpp:59:62: note: expanded from macro 'LOGi'
+#define LOGi(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
+                                                             ^~~~~~~~~~~
+7 warnings generated.
+[2/2] Linking CXX shared library E:\QQ\projectV3\projectV3\projectV3\app\build\intermediates\cxx\Release\466a2e6h\obj\arm64-v8a\libllama-android.so

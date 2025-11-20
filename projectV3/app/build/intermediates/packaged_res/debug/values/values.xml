@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_default">#FAFAFA</color>
+    <color name="black">#FF000000</color>
+    <color name="divider_light">#E0E0E0</color>
+    <color name="ic_launcher_background">#A5D6A7</color>
+    <color name="message_background_ai">#E3F2FD</color>
+    <color name="message_background_user">#EEFFDE</color>
+    <color name="telegram_background">@color/background_default</color>
+    <color name="telegram_blue">@color/xiangzhang_primary</color>
+    <color name="telegram_blue_dark">@color/xiangzhang_primary_dark</color>
+    <color name="telegram_button_primary">@color/xiangzhang_primary</color>
+    <color name="telegram_button_secondary">@color/xiangzhang_secondary</color>
+    <color name="telegram_divider">@color/divider_light</color>
+    <color name="telegram_input_background">@color/xiangzhang_primary_light</color>
+    <color name="telegram_message_background">@color/message_background_user</color>
+    <color name="telegram_message_background_ai">@color/message_background_ai</color>
+    <color name="telegram_text_danger">#FF3B30</color>
+    <color name="telegram_text_primary">@color/text_primary</color>
+    <color name="telegram_text_secondary">@color/text_secondary</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#666666</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="xiangzhang_primary">#66BB6A</color>
+    <color name="xiangzhang_primary_dark">#388E3C</color>
+    <color name="xiangzhang_primary_light">#A5D6A7</color>
+    <color name="xiangzhang_secondary">#8BC34A</color>
+    <color name="xiangzhang_secondary_dark">#689F38</color>
+    <color name="xiangzhang_secondary_light">#DCEDC8</color>
+    <string name="app_name">小香樟心理助手</string>
+    <style name="Theme.ProjectV3" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/xiangzhang_primary</item>
+        <item name="colorPrimaryVariant">@color/xiangzhang_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/xiangzhang_secondary</item>
+        <item name="colorSecondaryVariant">@color/xiangzhang_secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/xiangzhang_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/background_default</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.ProjectV3.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>
